@@ -3,9 +3,9 @@ schemaVersion = "0.0.1"
 
 [package]
 namespace = "Sparroh"
-name = "BatchScrapping"
-description = "Hold "T" to scrap non-Favorited upgrades for the selected gear. *WARNING* due to the game, performance issues with large batches! (unequip prisms / full spectrum before batching)"
-websiteUrl = "https://github.com/Little-Sparroh/BatchScrapping"
+name = "CraniusHunt"
+description = "Adds a standalone mission for Cranius within the 'Replay Missions' menu."
+websiteUrl = "https://github.com/Little-Sparroh/CraniusHunt"
 containsNsfwContent = false
 
 [package.dependencies]
@@ -17,8 +17,8 @@ readme = "README.md"
 outdir = "build"
 
 [[build.copy]]
-source = "bin/Release/net48/BatchScrapping.dll"
-target = "BepInEx/plugins/BatchScrapping.dll"
+source = "bin/Release/net48/CraniusHunt.dll"
+target = "BepInEx/plugins/CraniusHunt.dll"
 
 [[build.copy]]
 source = "CHANGELOG.md"
